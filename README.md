@@ -18,9 +18,10 @@ An example of 'Connectomes' or Connectivity Matrices (structural) showcasing the
 ![Exemple_REOR_3DCSSPASTINoldF1023A](https://github.com/user-attachments/assets/a3f90582-fc8d-400c-b111-a3d92dd7d68e)
 An example of Compressed Sensing reconstruction based on undersampled K-space MRI acquisition (Acceleration Factor of 2 which means 50µm resolution can be done for the time of a 100µm resolution scan).
 
-[Figure_volumetry_MAP6.pdf](https://github.com/user-attachments/files/20576753/Figure_volumetry_MAP6.pdf)
+![VolumetryMAP6_whitebg](https://github.com/user-attachments/assets/a5d22715-3033-499e-a617-db02eefbda28)
 An example of volumetry done based on higher resolution Compressed Sensing images.
 
 ------------------------------
 #### SpasTract Tutorial Steps
 %TO BE ADDED
+
