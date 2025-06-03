@@ -1,14 +1,16 @@
-# SpasTract_Tutorial
-A repository dedicated to the SpasTract research project tutorial along official documents regarding the use of animal models.
+# SpasTract
+Welcome to this repository dedicated to the SpasTract research project tutorial along official documents regarding the use of animal models.
 SpasTract stands for "Spas(tin) Tract(ography)", our team thus try to elucidate the consequences of SPASTIN gene alteration (i.e in Hereditary Spastic Paraplegia or HSP) and ways to characterize it first on murine animal models, ex vivo/in vivo, and then later on we could shift discoveries to the human and allow for potential early diagnosis of HSP for example. 
-Our team is looking at this topic through the scope of Magnetic Resonance Imaging or MRI, more particularly dMRI (diffusion MRI), 
+Our team is looking at this topic through the scope of Magnetic Resonance Imaging or MRI, more particularly dMRI (diffusion MRI), which allows us in turn to do Tractography, the reconstruction of white matter fibers non-invasively. Reconstructed fibers are called 'streamlines' as they do not represent the ground truth but rather an indirect metric of the actual amount of fibers in the brain.
+Our team also makes use of other tools to further complete this framework such as Histological cryocuts with gold marking, Carbocyanine dye DiI for axonal tracing, Compressed Sensing for high resolution MRI with partial acquisition of the K-space,... On top of that we also do a kind of Tracto'metry' based on Tractography with for example structural connectivity matrices.
+
+Below you will find examples of work done by our team and that can be reproduce by following this tutorial :
 
 ![FilteredFifthBrain](https://github.com/user-attachments/assets/8d855a91-b792-4229-a163-b1335c915427)
 An example of tractography 
 
 ![p56Atlascomparisongroupingsmallregions](https://github.com/user-attachments/assets/31fd9acd-74b5-4467-aa38-e4d7382ae9bd)
 An example of brain atlas availabe online from AllenBrain.
-
 
 ![ExampleConnectivityMatrices](https://github.com/user-attachments/assets/4de13faf-a0cb-4f36-afc0-46a3df60524d)
 An example of 'Connectomes' or Connectivity Matrices (structural) showcasing the amount of streamlines between regions based on Tractography co-registered with the atlas shown above.
@@ -18,3 +20,7 @@ An example of Compressed Sensing reconstruction based on undersampled K-space MR
 
 [Figure_volumetry_MAP6.pdf](https://github.com/user-attachments/files/20576753/Figure_volumetry_MAP6.pdf)
 An example of volumetry done based on higher resolution Compressed Sensing images.
+
+------------------------------
+#### SpasTract Tutorial Steps
+%TO BE ADDED
