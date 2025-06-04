@@ -7,19 +7,19 @@ Our team also makes use of other tools to further complete this framework such a
 Below you will find examples of work done by our team and that can be reproduce by following this tutorial :
 
 ![FilteredFifthBrain](https://github.com/user-attachments/assets/8d855a91-b792-4229-a163-b1335c915427)
-#An example of tractography 
+\r#An example of tractography 
 
 ![p56Atlascomparisongroupingsmallregions](https://github.com/user-attachments/assets/31fd9acd-74b5-4467-aa38-e4d7382ae9bd)
-#An example of brain atlas availabe online from AllenBrain.
+\r#An example of brain atlas availabe online from AllenBrain.
 
 ![ExampleConnectivityMatrices](https://github.com/user-attachments/assets/4de13faf-a0cb-4f36-afc0-46a3df60524d)
-#An example of 'Connectomes' or Connectivity Matrices (structural) showcasing the amount of streamlines between regions based on Tractography co-registered with the atlas shown above.
+\r#An example of 'Connectomes' or Connectivity Matrices (structural) showcasing the amount of streamlines between regions based on Tractography co-registered with the atlas shown above.
 
 ![Exemple_REOR_3DCSSPASTINoldF1023A](https://github.com/user-attachments/assets/a3f90582-fc8d-400c-b111-a3d92dd7d68e)
-#An example of Compressed Sensing reconstruction based on undersampled K-space MRI acquisition (Acceleration Factor of 2 which means 50µm resolution can be done for the time of a 100µm resolution scan).
+\r#An example of Compressed Sensing reconstruction based on undersampled K-space MRI acquisition (Acceleration Factor of 2 which means 50µm resolution can be done for the time of a 100µm resolution scan).
 
 ![VolumetryMAP6_whitebg](https://github.com/user-attachments/assets/a5d22715-3033-499e-a617-db02eefbda28)
-#An example of volumetry done based on higher resolution Compressed Sensing images.
+\r#An example of volumetry done based on higher resolution Compressed Sensing images.
 
 ------------------------------
 #### SpasTract Tutorial Steps
