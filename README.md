@@ -1,5 +1,5 @@
 # SpasTract
-Welcome to this repository dedicated to the SpasTract research project tutorial along official documents regarding the use of animal models.
+  Welcome to this repository dedicated to the SpasTract research project tutorial along official documents regarding the use of animal models.
 SpasTract stands for "Spas(tin) Tract(ography)", our team thus try to elucidate the consequences of SPASTIN gene alteration (i.e in Hereditary Spastic Paraplegia or HSP) and ways to characterize it first on murine animal models, ex vivo/in vivo, and then later on we could shift discoveries to the human and allow for potential early diagnosis of HSP for example. 
 Our team is looking at this topic through the scope of Magnetic Resonance Imaging or MRI, more particularly dMRI (diffusion MRI), which allows us in turn to do Tractography, the reconstruction of white matter fibers non-invasively. Reconstructed fibers are called 'streamlines' as they do not represent the ground truth but rather an indirect metric of the actual amount of fibers in the brain.
 Our team also makes use of other tools to further complete this framework such as Histological cryocuts with gold marking, Carbocyanine dye DiI for axonal tracing, Compressed Sensing for high resolution MRI with partial acquisition of the K-space,... On top of that we also do a kind of Tracto'metry' based on Tractography with for example structural connectivity matrices.
@@ -22,6 +22,6 @@ Below you will find examples of work done by our team and that can be reproduce 
 #An example of volumetry done based on higher resolution Compressed Sensing images.
 
 ------------------------------
-#### SpasTract Tutorial Steps
-%TO BE ADDED
+#### SpasTract Tutorial 
+  You will find in the associated SpasTractTutorialFolder folder the SpasTract tutorial elements as well as a detailed step-by-step guide... 
 
