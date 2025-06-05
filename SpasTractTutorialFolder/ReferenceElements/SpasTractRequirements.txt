@@ -1,0 +1,9 @@
+########################
+SpasTract Requirements : [Linux, Ubuntu 22][Not tested on other distributions...]
+########################
+-Python environment installed (preferably 3.8+) 
+-MRtrix3 installed, for details on how to install it please refer to https://www.mrtrix.org/ and https://mrtrix.readthedocs.io/en/latest/index.html
+-deGibbs3D package added to MRtrix3, details on how to install are available at : https://github.com/jdtournier/mrdegibbs3D
+-ANTs package installed, for details on how to install it please refer to https://github.com/ANTsX/ANTs
+-For external masks, PCNN3D in MATLAB : you need to have a MATLAB version installed on your station (R2021a+) and the MATLAB files of PCNN3D available at : https://sites.google.com/site/chuanglab/software/3d-pcnn 
+-For bvecs bvals txt file, we use Skrypy (ex-mri_works) with a dedicated .dgr file but other means are possible, the main point is to get the B vectors and B values from dMRI raw data... (in proper convention !!)
