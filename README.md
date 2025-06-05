@@ -8,6 +8,19 @@ Below you will find examples of work done by our team and that can be reproduce 
 
 ![FilteredFifthBrain](https://github.com/user-attachments/assets/8d855a91-b792-4229-a163-b1335c915427)  
 #An example of tractography   
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/95e7f524-5f19-409f-b856-d85e96566259" width="45%" />
+  <img src="https://github.com/user-attachments/assets/7651e0a7-4dd0-405a-b1b8-99c6fde7f5dd" width="45%" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/cdeaa00d-dbcd-4f6a-80ad-af9214390a5a" width="45%" />
+  <img src="https://github.com/user-attachments/assets/c67cf92d-7d91-470c-97ff-33ab77e74652" width="45%" />
+</p>
+  
+#Examples of some major tracts : anterior commissure and corpus callosum both from a WT sample and then from a KO-SPASTIN sample.
+
+
 
 ![P56AtlasAnnotationProperOrientation](https://github.com/user-attachments/assets/401fcace-f0e5-4d1d-a367-7e4486698164)  
 #An example of brain atlas availabe online from AllenBrain.
