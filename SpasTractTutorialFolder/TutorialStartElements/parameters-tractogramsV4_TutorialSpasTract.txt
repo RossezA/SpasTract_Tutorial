@@ -1,0 +1,26 @@
+QuantityOfSamples: 2
+VoxelDimensions(mm): 0.1,0.1,0.1
+NumberOfDirections: 20
+NumberOfSeedsperVoxel: 3
+FractionalAnisotropyCutoff: 0.23,0.24,0.25,0.26,0.27,0.28
+StepSize(mm): 0.01
+Curvature: 0.07 
+PerformN4BiasonDWIVolumes: Yes
+ViewPreprocessingResultsduringRun: No
+SphericalDeconvolutionResponseAlgorithm: tournier,dhollander
+TractographyAlgorithm: Tensor_Det,iFOD2
+ROIsToBeAnalysed: cc,ac,py
+PerformROIFiltering: No
+PerformROIStatistics: No
+PerformWholeBrainStatistics: No
+PerformSIFTOnly: No
+SIFTmode: 2
+SIFT1TerminationOptions: standard,mu,ratio
+SIFT1TerminationValues: 0.30
+WorkPath:/Path/to/SpasTractTutorialFolder/TutorialStartElements/without/endslash
+ProvideListOfImages: Yes
+ProvideExternalMask: Yes
+SameMaskforAllImages: No
+SameBvecsBvalsforAllImages: No
+SubFolderComment: Tractography_TutorialSpasTract
+NumberOfThreads: 8

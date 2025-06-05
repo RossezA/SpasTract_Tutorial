@@ -1,0 +1,2 @@
+/Path/to/SpasTractTutorialFolder/TutorialStartElements/SPASTIN-F1023_2025-02-06/SPASTIN-F1023_2025-02-06-07-TutorialSpasTract.nii
+/Path/to/SpasTractTutorialFolder/TutorialStartElements/SPASTIN-M974_2024-01-27/SPASTIN-M974_2024-01-27-07-TutorialSpasTract.nii
