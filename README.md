@@ -9,7 +9,7 @@ Below you will find examples of work done by our team and that can be reproduce 
 ![FilteredFifthBrain](https://github.com/user-attachments/assets/8d855a91-b792-4229-a163-b1335c915427)  
 #An example of tractography   
 
-![p56Atlascomparisongroupingsmallregions](https://github.com/user-attachments/assets/31fd9acd-74b5-4467-aa38-e4d7382ae9bd)  
+![P56AtlasAnnotationProperOrientation](https://github.com/user-attachments/assets/401fcace-f0e5-4d1d-a367-7e4486698164)  
 #An example of brain atlas availabe online from AllenBrain.
 
 ![ExampleConnectivityMatrices](https://github.com/user-attachments/assets/4de13faf-a0cb-4f36-afc0-46a3df60524d)  
