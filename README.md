@@ -6,17 +6,7 @@ Our team also makes use of other tools to further complete this framework such a
 
 Below you will find examples of work done by our team and that can be reproduce by following this tutorial :
 
-![FilteredFifthBrain](https://github.com/user-attachments/assets/8d855a91-b792-4229-a163-b1335c915427)  
-#An example of tractography   
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/95e7f524-5f19-409f-b856-d85e96566259" width="45%" />
-  <img src="https://github.com/user-attachments/assets/7651e0a7-4dd0-405a-b1b8-99c6fde7f5dd" width="45%" />
-</p>
-
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/cdeaa00d-dbcd-4f6a-80ad-af9214390a5a" width="45%" />
-  <img src="https://github.com/user-attachments/assets/c67cf92d-7d91-470c-97ff-33ab77e74652" width="45%" />
-</p>
+![SpasTractSPASTINvsWT_Panel](https://github.com/user-attachments/assets/53911853-04f9-476a-a028-8dd538cb58d0)
   
 #Examples of some major tracts : anterior commissure and corpus callosum both from a WT sample and then from a KO-SPASTIN sample.
 
@@ -25,14 +15,14 @@ Below you will find examples of work done by our team and that can be reproduce 
 ![P56AtlasAnnotationProperOrientation](https://github.com/user-attachments/assets/401fcace-f0e5-4d1d-a367-7e4486698164)  
 #An example of brain atlas availabe online from AllenBrain.
 
-![ExampleConnectivityMatrices](https://github.com/user-attachments/assets/4de13faf-a0cb-4f36-afc0-46a3df60524d)  
+![MatrixMakingfromConnectome_STR-MB](https://github.com/user-attachments/assets/60a2ae10-cc22-42ef-9988-2b408cbef0fb) 
 #An example of 'Connectomes' or Connectivity Matrices (structural) showcasing the amount of streamlines between regions based on Tractography co-registered with the atlas shown above.
 
 ![Exemple_REOR_3DCSSPASTINoldF1023A](https://github.com/user-attachments/assets/a3f90582-fc8d-400c-b111-a3d92dd7d68e)  
 #An example of Compressed Sensing reconstruction based on undersampled K-space MRI acquisition (Acceleration Factor of 2 which means 50µm resolution can be done for the time of a 100µm resolution scan).
 
-![VolumetryMAP6_whitebg](https://github.com/user-attachments/assets/a5d22715-3033-499e-a617-db02eefbda28)  
-#An example of volumetry done based on higher resolution Compressed Sensing images.
+![VolumetrySignificantGMWM_V2](https://github.com/user-attachments/assets/437f38e2-3ab1-447a-b4cc-c1ca8f896c7b)
+#An example of volumetry done based on an atlas coregistered to a high resolution Compressed Sensing image.
 
 ------------------------------
 #### SpasTract Tutorial 
