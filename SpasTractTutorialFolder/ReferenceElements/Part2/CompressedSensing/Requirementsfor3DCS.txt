@@ -1,0 +1,129 @@
+Requirements for CS MATLAB : 
+-MRtrix installed ! (for transform modification when creating the NIfTI file)
+
+-(Clic)Arno_3DCDFLASHPRONE_Reconstruction_BARTV9_202506 or latest version
+-conventionalCSReconstruction_V5.m or latest version
+-readAcquisitionFileV2.m or latest version
+-readParavisionUndersampledRawFIDV3.m or latest version
+-undersampledDataReconstructionFromMultiChannelRawFIDV4.m or latest version
+-zeroPaddingReconstruction_V3.m or latest version
+-In CS Scan Folder (scan 8 usually) : 
+	.acquisitionParameters.txt
+	.undersamplingPattern.txt
+	
+
+For Station B : 
+Error using undersampledDataReconstructionFromMultiChannelRawFIDV4 (line 189)
+mrconvert failed: mrconvert: /usr/local/MATLAB/R2021a/sys/os/glnxa64/libstdc++.so.6: version
+`GLIBCXX_3.4.29' not found (required by mrconvert)
+mrconvert: /usr/local/MATLAB/R2021a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found
+(required by mrconvert)
+mrconvert: /usr/local/MATLAB/R2021a/bin/glnxa64/libtiff.so.5: no version information available (required
+by /Apps/mrtrix3/bin/../lib/libmrtrix.so)
+mrconvert: /usr/local/MATLAB/R2021a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found
+(required by /Apps/mrtrix3/bin/../lib/libmrtrix.so)
+mrconvert: /usr/local/MATLAB/R2021a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found
+(required by /Apps/mrtrix3/bin/../lib/libmrtrix.so)
+mrconvert: /usr/local/MATLAB/R2021a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found
+(required by /Apps/mrtrix3/bin/../lib/libmrtrix.so)
+mrconvert: /usr/local/MATLAB/R2021a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found
+(required by /Apps/mrtrix3/bin/../lib/libmrtrix.so)
+>Additional Requirement : need to sudo apt install/get the required libraries ? 
+hmathieu@irmage-station-B:/usr/local/MATLAB/R2021a/sys/os/glnxa64$ ls
+libgcc_s.so.1         libifport.so.5  libirc.so             libstdc++.so.6.0.25
+libgfortran.so.5      libimf.so       libquadmath.so.0      libsvml.so
+libgfortran.so.5.0.0  libintlc.so.5   libquadmath.so.0.0.0  orig
+libifcore.so.5        libiomp5.so     libstdc++.so.6        README.libgcc_s
+
+sudo apt-get upgrade libstdc++6
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+libstdc++6 is already the newest version (12.3.0-1ubuntu1~22.04).
+libstdc++6 set to manually installed.
+Calculating upgrade... Error!
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ libnvidia-compute-535 : Breaks: libnvidia-compute-535:i386 (!= 535.183.01-0ubuntu0.22.04.1) but 535.230.02-0ubuntu0.22.04.1 is to be installed
+ libnvidia-compute-535:i386 : Breaks: libnvidia-compute-535 (!= 535.230.02-0ubuntu0.22.04.1) but 535.183.01-0ubuntu0.22.04.1 is to be installed
+ libnvidia-decode-535 : Breaks: libnvidia-decode-535:i386 (!= 535.183.01-0ubuntu0.22.04.1) but 535.230.02-0ubuntu0.22.04.1 is to be installed
+ libnvidia-decode-535:i386 : Breaks: libnvidia-decode-535 (!= 535.230.02-0ubuntu0.22.04.1) but 535.183.01-0ubuntu0.22.04.1 is to be installed
+ libnvidia-encode-535 : Breaks: libnvidia-encode-535:i386 (!= 535.183.01-0ubuntu0.22.04.1) but 535.230.02-0ubuntu0.22.04.1 is to be installed
+ libnvidia-encode-535:i386 : Breaks: libnvidia-encode-535 (!= 535.230.02-0ubuntu0.22.04.1) but 535.183.01-0ubuntu0.22.04.1 is to be installed
+ libnvidia-fbc1-535 : Breaks: libnvidia-fbc1-535:i386 (!= 535.183.01-0ubuntu0.22.04.1) but 535.230.02-0ubuntu0.22.04.1 is to be installed
+ libnvidia-fbc1-535:i386 : Breaks: libnvidia-fbc1-535 (!= 535.230.02-0ubuntu0.22.04.1) but 535.183.01-0ubuntu0.22.04.1 is to be installed
+E: Unable to correct problems, you have held broken packages.
+
+sudo apt-get install gcc-4.9
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'gcc-4.9-arm-linux-gnueabi' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-s390x-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-sh4-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-hppa64' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-sparc64-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-aarch64-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-mips64-linux-gnuabi64' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-m68k-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-powerpc64-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-powerpc-linux-gnuspe' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-arm-linux-gnueabihf' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-mips-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-powerpc64le-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-hppa-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-powerpc-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-mipsel-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-sparc-linux-gnu' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-mips64el-linux-gnuabi64' for regex 'gcc-4.9'
+Note, selecting 'gcc-4.9-alpha-linux-gnu' for regex 'gcc-4.9'
+The following packages were automatically installed and are no longer required:
+  libnvidia-cfg1-525 libnvidia-common-525 libnvidia-compute-525
+  libnvidia-compute-525:i386 libnvidia-decode-525 libnvidia-decode-525:i386
+  libnvidia-egl-wayland1 libnvidia-encode-525 libnvidia-encode-525:i386
+  libnvidia-extra-525 libnvidia-fbc1-525 libnvidia-fbc1-525:i386
+  libnvidia-gl-525 libnvidia-gl-525:i386 nvidia-compute-utils-525
+  nvidia-utils-525 xserver-xorg-video-nvidia-525
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 68 not upgraded.
+
+
+strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
+GLIBCXX_3.4
+GLIBCXX_3.4.1
+GLIBCXX_3.4.2
+GLIBCXX_3.4.3
+GLIBCXX_3.4.4
+GLIBCXX_3.4.5
+GLIBCXX_3.4.6
+GLIBCXX_3.4.7
+GLIBCXX_3.4.8
+GLIBCXX_3.4.9
+GLIBCXX_3.4.10
+GLIBCXX_3.4.11
+GLIBCXX_3.4.12
+GLIBCXX_3.4.13
+GLIBCXX_3.4.14
+GLIBCXX_3.4.15
+GLIBCXX_3.4.16
+GLIBCXX_3.4.17
+GLIBCXX_3.4.18
+GLIBCXX_3.4.19
+GLIBCXX_3.4.20
+GLIBCXX_3.4.21
+GLIBCXX_3.4.22
+GLIBCXX_3.4.23
+GLIBCXX_3.4.24
+GLIBCXX_3.4.25
+GLIBCXX_3.4.26
+GLIBCXX_3.4.27
+GLIBCXX_3.4.28
+GLIBCXX_3.4.29
+GLIBCXX_3.4.30
+GLIBCXX_DEBUG_MESSAGE_LENGTH
+

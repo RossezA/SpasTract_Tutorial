@@ -1,0 +1,11 @@
+AcquisitionTypeID : 1
+inputReadoutDim : 360
+inputPhase1Dim : 180
+inputPhase2Dim : 220
+numberOfEchoes : 1
+outputReadoutDim : 360
+outputPhase1Dim : 180
+outputPhase2Dim : 220
+numberOfChannels : 4
+numberOfB0s : 1
+numberOfDWIs : 0

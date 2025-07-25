@@ -1,0 +1,14 @@
+% % Changing NIfTI header [DONE FOR 50µm SETUP]
+% % mrconvert step
+% % Constructing the shell command
+'mrconvert pathAndfilename pathAndfilenameREOR -axes 2,0,1 -vox 0.05,0.05,0.05 -strides 3,-2,1 -force'
+
+% % mrtransform step
+% %Generating transform txt file for mrtransform
+% % Define the 3x4 matrix
+% T = [1  -0  0  -5.8;
+%      0  -1  0   8.9;
+%      0  -0  1  -3];
+% % Write the matrix to a text file
+'mrtransform pathAndfilenameREOR pathAndfilenameREOR -replace transformFilePath -force'
+
