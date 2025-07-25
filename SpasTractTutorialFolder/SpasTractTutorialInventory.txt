@@ -3,6 +3,6 @@ An inventory of what you can find in this folder can be found below :
 
 -'./ReferenceElements' is a folder containing reference elements to compare with your results after following the tutorial, if everything goes then you should obtain identical results.
 -'./TutorialStartElements' is a folder containing the necessary elements to start the tutorial (i.e NIfTI file of dMRI with explanations on how to get it from raw Bruker data and MRI Files Manager).
--'SpasTractStepbyStep.docx' is a .docx file containing a detailed step-by-step guide for this tutorial along screenshots/pictures.
+-'SpasTractStepbyStep.docx' Pt.1 & Pt.2 are .docx files containing a detailed step-by-step guide for this tutorial along screenshots/pictures.
 -'SpasTractRequirements.txt' is a .txt file containing a list of requirements to fullfill to start SpasTract tutorial in proper conditions (i.e having MRtrix3, Python3.8+, ...)
 -'SpasTractTutorialInventory.txt' is a .txt file containing the inventory of the SpasTractTutorialFolder and that you are currently reading =) .
